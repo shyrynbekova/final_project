@@ -1,0 +1,514 @@
+body {
+    
+}
+/* бырыншы бет */
+
+.list1 {
+    background-color: #881337;
+    padding:  80px;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.titul {
+    padding: 24px, 80px, 24px, 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.xinder {
+    width: 90px;
+    height: 35px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navbar-list {
+    width: 446px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn1 {
+    width: 127px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: #881337;
+}
+
+.txt {
+    width: 640px;
+    height: 539px;
+    gap: 24px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.bts {
+    width: 640px;
+    height: 48px;
+    gap: 16px;
+}
+
+.btn2 {
+    width:640px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    width: 109px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 5px;
+    background: #BE123C;
+    border: 2px solid #BE123C;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.btns {
+    width: 640px;
+    height: 24px;
+    gap: 8px;
+}
+
+.btnt {
+    width:88px;
+    height: 24px;
+    padding: 8px, 4px, 8px, 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: #881337;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+.img {
+    width: 640px;
+    height: 539px;
+}
+
+
+
+
+/* екыншы бет */
+main {
+    background-color:#FFFFFF;
+}
+
+
+section class .img2 {
+    
+
+}
+
+.ttl   h2 {
+    font-family:'Roboto';
+    weight: 700;
+    size: 40px;
+    color: #0F172A;
+    width:1051px;
+    height:44px;
+
+
+}
+
+.ttl {
+display: flex;
+justify-content: space-between;
+padding: 46px;
+gap: 24px;
+border:0px, 3px, 0px, 0px;
+}
+
+.logo-list {
+
+display: flex;
+justify-content: space-between;
+padding: 80px;
+gap: 24px;
+
+}
+
+
+
+
+
+ /* ушыншы бет  */
+.second {
+    background-color: #F1F5F9;
+}
+
+.wrd {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 24px;
+}
+
+
+
+
+
+
+
+
+/* тортыншы бет */
+.list2 {
+    padding: 48px, 80px, 48px, 80px;
+    gap: 80px;
+    background-color: #F1F5F9;
+    padding:  50px;
+    gap: 50px;
+    justify-content: space-around;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+.logos1 {
+    color: #94A3B8;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.naryn {
+    background-color: #FFFFFF;
+    padding: 80px;
+    gap: 80px;
+    padding:  50px;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.naryn1 {
+    color: #0F172A;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.naryn2 {
+    display: flex;
+    justify-content: space-around;
+    height: 102px;
+    gap: 48px
+}
+.naryn3 {
+    display: block;
+    flex-direction: column-reverse;
+    width: 173.33px;
+    height: 102px;
+    gap: 16px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.naryn button {
+    width: 191px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #BE123C;
+    border: 2px solid #BE123C;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+
+
+/* бесыншы бет */
+.conteiner {
+    background-color:  #475569;
+    display: flex;
+}
+.list33{
+    /* display: flex; */
+    gap: 24;
+}
+
+.ic {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    gap:8px;
+    
+    border-radius: 20px;
+    
+
+}
+
+.soz  {
+    padding-left: 80px;
+    /* padding-right: 160px; */
+    margin-bottom: 150px;
+}
+.conteiner p {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+}
+
+.insoz {
+    
+
+}
+.insoz h1 {
+    padding-bottom: 15px;
+    font-size: 56px;
+    padding-right: 160px;
+    
+}
+.insoz p {
+    font-size: 18px;
+    padding-right: 250px;
+
+}
+.inter {
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+
+
+
+
+/* алтыншы бет  */
+.alty {
+    display: flex;
+    font-family: "Roboto";
+    background-color: #F1F5F9
+    ;
+
+}
+.alty c{
+    color:  #2563EB;
+} 
+.alty p {
+    color: #475569;
+
+}
+.inalty {
+    padding: 80px;
+}
+.altysoz{
+    padding-top: 180px;
+    /* padding-bottom: 120px; */
+    padding-right: 120px;
+}
+.altysoz p1 {
+    color: #0F172A;
+    font-size: 24px;
+
+}
+
+
+
+
+
+/* жетыншы бет */
+
+
+
+
+
+
+
+
+
+
+/* сегызыншы бет */
+.horse {
+    /* display: inline-flex; */
+    columns: ;
+}
+.art9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.strel {
+    display: flex;
+
+}
+
+.suretter {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* предпоследний бет */
+.nan {
+    padding: 80px, 80px, 0px, 80px;
+    border: 0px, 0px, 1px, 0px;
+    gap: 80px;
+    background-color: #0F172A;
+    display: flex;
+    padding:  50px;
+    justify-content: space-around;
+}
+
+.nan2 {
+    width: 670px;
+    height: 480px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.nan2 h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.nan2 button {
+    width: 152px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+    background-color: #0F172A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nan3 {
+    width: 530px;
+    height: 480px;
+    gap: 30px;
+    font-weight: 550px;
+    line-height: 480px;
+}
+
+
+
+/* 
+сонгы бет */
+footer {
+    padding: 0px, 80px, 0px, 80px;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #475569;
+}
+
+.columns {
+    padding: 48px, 0px, 48px, 0px;
+    border: 0px, 0px, 1px, 0px;
+    gap: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerc {
+    display: flex;
+    flex-direction: row;
+    width: 173.33px;
+    height: 48px;
+    padding: 12px, 0px, 12px, 0px;
+    gap: 8px;
+}
+.footerc p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
