@@ -5,7 +5,7 @@ body {
 
 .list1 {
     background-color: #881337;
-    padding:  80px;
+    padding-left:  80px;
     gap: 80px;
     justify-content: space-around;
 }
@@ -14,10 +14,13 @@ body {
     padding: 24px, 80px, 24px, 80px;
     display: flex;
     justify-content: space-between;
+    
+
 
 }
 
 .xinder {
+    align-items: flex-start;
     width: 90px;
     height: 35px;
     color: #FFFFFF;
@@ -30,6 +33,8 @@ body {
 }
 
 .navbar-list {
+    align-items: center;
+    padding-right: 80px;
     width: 446px;
     height: 48px;
     gap: 16px;
@@ -64,9 +69,10 @@ a {
 }
 
 .txt {
-    width: 640px;
-    height: 539px;
+    /* width: 640px;
+    height: 539px; */
     gap: 24px;
+    /* padding-left: 80px; */
 }
 
 h1 {
@@ -93,10 +99,18 @@ h1 {
     justify-content: space-between;
 }
 
+.lampa {
+    padding-top: 14px;
+    padding-left: 14px;
+    position: absolute;
+    right: 91%;
+}
+
 .search{
+    margin-left: 20px;
     width: 109px;
     height: 48px;
-    padding: 12px;
+    padding: 10px;
     border-radius: 5px;
     background: #BE123C;
     border: 2px solid #BE123C;
@@ -112,7 +126,7 @@ h1 {
 .btns {
     width: 640px;
     height: 24px;
-    gap: 8px;
+    gap: 13px;
 }
 
 .btnt {
@@ -135,6 +149,9 @@ h1 {
     justify-content: space-around;
 }
 .img {
+    padding-top: 30px;
+    padding-right: 0px;
+    margin: 0px;
     width: 640px;
     height: 539px;
 }
@@ -153,6 +170,21 @@ section class .img2 {
 
 }
 
+
+.ttl {
+    display: flex;
+    justify-content: space-between;
+    padding-left:80px;
+    padding-right: 80px;
+    padding-top: 50px;
+   
+    /* gap: 24px; */
+    border:0px, 3px, 0px, 0px;
+    align-items: center;
+    
+    }
+
+
 .ttl   h2 {
     font-family:'Roboto';
     weight: 700;
@@ -160,23 +192,25 @@ section class .img2 {
     color: #0F172A;
     width:1051px;
     height:44px;
-
-
 }
 
-.ttl {
-display: flex;
-justify-content: space-between;
-padding: 46px;
-gap: 24px;
-border:0px, 3px, 0px, 0px;
-}
 
+
+.ttl a {
+    color: #2563EB;
+    font-family: 'Roboto';
+}
+.onga {
+    display: flex;
+}
 .logo-list {
 
 display: flex;
 justify-content: space-between;
-padding: 80px;
+padding-left:  80px;
+padding-right: 80px;
+padding-top: 0px;
+padding-bottom: 80px;
 gap: 24px;
 
 }
@@ -190,12 +224,34 @@ gap: 24px;
     background-color: #F1F5F9;
 }
 
-.wrd {
+.gowa {
+    display: flex;
     
+}
+
+.zh {
+    color:#2563EB;
+    display: flex;
+    font-size: 16px;
+
+}
+
+.wrd {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 80px;
-    gap: 24px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* gap: 24px; */
+}
+.iimg {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    justify-content: space-between;
 }
 
 
@@ -230,7 +286,7 @@ gap: 24px;
     text-align: left;
 }
 
-.naryn {
+.narn {
     background-color: #FFFFFF;
     padding: 80px;
     gap: 80px;
@@ -239,7 +295,7 @@ gap: 24px;
     justify-content: space-around;
 }
 
-.naryn1 {
+.narn1 {
     color: #0F172A;
     font-family: Roboto;
     font-size: 40px;
@@ -249,13 +305,13 @@ gap: 24px;
     text-align: center;
 }
 
-.naryn2 {
+.narn2 {
     display: flex;
     justify-content: space-around;
     height: 102px;
     gap: 48px
 }
-.naryn3 {
+.narn3 {
     display: block;
     flex-direction: column-reverse;
     width: 173.33px;
@@ -268,10 +324,15 @@ gap: 24px;
     letter-spacing: 0em;
     text-align: center;
 }
-.naryn button {
+.narn4 {
+    justify-content: center;
+    
+}
+.narn button {
+    justify-content: center;
     width: 191px;
     height: 56px;
-    padding: 16px;
+    /* padding: 16px; */
     border-radius: 5px;
     color: #FFFFFF;
     background: #BE123C;
@@ -282,6 +343,12 @@ gap: 24px;
     line-height: 24px;
     letter-spacing: 0.5px;
     text-align: center;
+}
+.tell {
+    justify-content: center;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 
@@ -300,17 +367,15 @@ gap: 24px;
 .ic {
     display: flex;
     /* flex-direction: row-reverse; */
-    gap:8px;
+    gap: 2px;
     
     border-radius: 20px;
-    
-
 }
 
 .soz  {
     padding-left: 80px;
     /* padding-right: 160px; */
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 .conteiner p {
     font-size: 18px;
@@ -323,7 +388,8 @@ gap: 24px;
 
 }
 .insoz h1 {
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
     font-size: 56px;
     padding-right: 160px;
     
@@ -333,11 +399,34 @@ gap: 24px;
     padding-right: 250px;
 
 }
-.inter {
-    padding-right: 100px;
-    padding-top: 100px;
-}
+/* .inter {
+    
+} */
+ /* .surettergoi {
+    .inter {
+        position: relative;
+      } */
+      
+      /* .surettergoi {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      } */
+      
+ 
+      .parent {
 
+      }
+      .par {
+        padding-right: 100px;
+    padding-top: 100px;
+      }
+      .bir {
+        position: static;
+        padding-right: 100px;
+    padding-top: 100px;
+      }
 
 
 
@@ -376,8 +465,123 @@ gap: 24px;
 
 
 /* жетыншы бет */
+.list7 {
+    background:#475569;
+    
+    padding: 45px;
+    border: 0px, 0px, 1px, 0px;
+    gap: 45px;
+    display: flex;
+    flex-direction: row;
+}
 
+.txt7 h1 {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
 
+.txt7 p {
+    width: 340px;
+    height: 87px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn7{
+    width: 201px;
+    height: 56px;
+    gap: 16px;
+    width: 201px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #475569;
+}
+
+.col {
+    padding-left: 50px;
+    /* padding-top: 10px; */
+    padding-bottom: 30px;
+}
+.row {
+    display: flex;
+    justify-content: space-around; 
+    gap: 24px;
+
+}
+
+.contentb {
+    border-radius: 10px;
+    border: 1px;
+    opacity: 0.25px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+}
+
+.picture {
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.content {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F172A;
+    border-radius: 4px;
+    gap: 10px;
+    
+}
+
+.row button {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    background: rgba(0px, 0px, 4px, 0px);
+
+}
+
+.left{
+    position: absolute;
+    right: 57%;
+}
+
+.right {
+    position: absolute;
+    left: 87%;
+    top: 100%;
+}
 
 
 
@@ -389,25 +593,49 @@ gap: 24px;
 /* сегызыншы бет */
 .horse {
     /* display: inline-flex; */
-    columns: ;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+    
 .art9 {
     display: flex;
     justify-content: space-between;
+    /* padding-left:80px;
+    padding-right: 80px; */
+    padding-top: 50px;
+    gap: 80px;
 }
 
-
+h2 {
+    color:  #0F172A;
+    font-size: 40px;
+}
 
 .strel {
-    display: flex;
+   display: flex;
+   color: 
+   #2563EB;
+   align-items: center;
+   gap: 10px;
+   
 
 }
 
 .suretter {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 80px;
 }
+.brnsh {
 
+}
+p {
+    font-size: 18px;
+}
+h5 {
+font-size: 24px;
+}
 
 
 
@@ -417,24 +645,25 @@ gap: 24px;
 
 /* предпоследний бет */
 .nan {
-    padding: 80px, 80px, 0px, 80px;
-    border: 0px, 0px, 1px, 0px;
-    gap: 80px;
+    /* padding: 80px, 80px, 0px, 80px; */
+    /* border: 0px, 0px, 1px, 0px; */
+    gap: 90px;
     background-color: #0F172A;
     display: flex;
-    padding:  50px;
+    padding-left:  40px;
     justify-content: space-around;
 }
 
 .nan2 {
-    width: 670px;
-    height: 480px;
-    gap: 24px;
+    /* width: 670px;
+    height: 480px; */
+    gap: 0px;
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 .nan2 h1 {
+    padding-top: 160px;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 800;
@@ -447,7 +676,7 @@ gap: 24px;
 .nan2 button {
     width: 152px;
     height: 56px;
-    padding: 16px;
+    padding-bottom: 2px;
     border-radius: 8px;
     border: 2px solid #FFFFFF;
     background-color: #0F172A;
@@ -461,19 +690,30 @@ gap: 24px;
 }
 
 .nan3 {
-    width: 530px;
-    height: 480px;
+    padding-right: 0px;
+   margin-bottom: 0px;
+   padding-top: 80px;
+    /* width: 530px;
+    height: 480px; */
     gap: 30px;
-    font-weight: 550px;
-    line-height: 480px;
+    /* font-weight: 550px;
+    line-height: 480px; */
 }
 
 
 
 /* 
 сонгы бет */
+.listp {
+    padding: 40px;
+    border: 0px, 0px, 1px, 0px;
+    gap: 80px;
+}
+
 footer {
-    padding: 0px, 80px, 0px, 80px;
+    padding-left: 23px;
+    padding-right: 23px;
+   
     background-color: #FFFFFF;
     font-family: Roboto;
     font-size: 16px;
@@ -493,8 +733,7 @@ footer {
 .footerc {
     display: flex;
     flex-direction: row;
-    width: 173.33px;
-    height: 48px;
+    
     padding: 12px, 0px, 12px, 0px;
     gap: 8px;
 }
@@ -506,9 +745,14 @@ footer {
     letter-spacing: 0em;
     text-align: left;
 }
+.pp {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .bottom {
     display: flex;
     justify-content: space-between;
 }
+
 
