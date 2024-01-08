@@ -111,14 +111,16 @@ h1 {
     gap: 16px;
     display: flex;
     justify-content: space-between;
+    position: relative; 
+
+    .lampa {
+        padding-top: 14px;
+        padding-left: 14px;
+        position: absolute;
+        right: 94%;
+    }
 }
 
-.lampa {
-    padding-top: 14px;
-    padding-left: 14px;
-    position: absolute;
-    right: 91%;
-}
 
 .search{
     margin-left: 20px;
@@ -385,9 +387,9 @@ gap: 18px;
 .ic {
     display: flex;
     /* flex-direction: row-reverse; */
-    gap: 2px;
-    
+    gap: 11px;
     border-radius: 20px;
+
 }
 
 .soz  {
@@ -417,6 +419,34 @@ gap: 18px;
     padding-right: 250px;
 
 }
+
+.conteiner {
+    position: relative;
+
+    .bir {
+        position: absolute;
+        top: 1%;
+        right: 19%;
+    }
+    .par {
+        position: absolute;
+        top: 5%;
+        left: 54%;
+        padding-right: 80px;
+    }
+    .eki {
+        position: absolute;
+        top: 28%;
+        right: 5%;
+    }
+    .ush {
+        position: absolute;
+        top: 76%;
+        right: 31%;
+    }
+    
+}
+
 /* .inter {
     
 } */
@@ -541,10 +571,24 @@ gap: 18px;
     padding-bottom: 30px;
 }
 .row {
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-around; 
     gap: 24px;
+    position: relative;
+}
 
+.left {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+.right{
+    position: absolute;
+    top: 40%;
+    right: 8%;
 }
 
 .contentb {
@@ -554,7 +598,21 @@ gap: 18px;
     border: 1px solid #FFFFFF;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
     linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
 
+.contentb img {
+    border-radius: 10px;
+}
+.shadow {
+    
+        opacity: 0.5; /* полупрозрачность */
+      
+      
+    border-radius: 10px;
+    height: 300px;
+    position: absolute;
+    left: 20%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .picture {
@@ -590,16 +648,7 @@ gap: 18px;
 
 }
 
-.left{
-    position: absolute;
-    right: 57%;
-}
 
-.right {
-    position: absolute;
-    left: 87%;
-    top: 100%;
-}
 .paragraph {
     padding-bottom: 30px;
 }
@@ -630,6 +679,7 @@ gap: 18px;
 h2 {
     color:  #0F172A;
     font-size: 40px;
+    font-family: Roboto;
 }
 
 .strel {
@@ -638,8 +688,7 @@ h2 {
    #2563EB;
    align-items: center;
    gap: 10px;
-   
-
+   font-family: Roboto;
 }
 
 .suretter {
@@ -653,9 +702,12 @@ h2 {
 }
 p {
     font-size: 18px;
+    font-family: Roboto;
+    line-height: 29px;
 }
 h5 {
 font-size: 24px;
+font-family: Roboto;
 }
 
 
@@ -766,14 +818,20 @@ footer {
     letter-spacing: 0em;
     text-align: left;
 }
-.pp {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
 .bottom {
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-
+.photes {
+    display: flex;
+    align-content: center;
+    gap: 8px;
+}
+.Disclaimer1 {
+    font-size: 12px;
+    line-height: 17px;
+}
 
